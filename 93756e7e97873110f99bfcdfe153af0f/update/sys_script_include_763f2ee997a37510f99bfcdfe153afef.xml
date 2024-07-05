@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_875316_filmcity.newEcma21ClassTest</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>newEcma21ClassTest</name>
+        <script><![CDATA[function newEcma21ClassTest(){
+	class glideFuncs{
+	name = "kiki"
+    }
+	return new glideFuncs().name
+}
+newEcma21ClassTest.nameasd = 'hll'
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-05 13:00:59</sys_created_on>
+        <sys_id>763f2ee997a37510f99bfcdfe153afef</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>newEcma21ClassTest</sys_name>
+        <sys_package display_value="FilmCity" source="x_875316_filmcity">93756e7e97873110f99bfcdfe153af0f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="FilmCity">93756e7e97873110f99bfcdfe153af0f</sys_scope>
+        <sys_update_name>sys_script_include_763f2ee997a37510f99bfcdfe153afef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-05 13:49:39</sys_updated_on>
+        <u_iscreatedbyme>true</u_iscreatedbyme>
+    </sys_script_include>
+</record_update>

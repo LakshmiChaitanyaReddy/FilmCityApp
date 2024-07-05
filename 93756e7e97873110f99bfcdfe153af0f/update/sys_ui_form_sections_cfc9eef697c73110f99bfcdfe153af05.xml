@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="cfc9eef697c73110f99bfcdfe153af05" sys_domain="global" table="x_875316_filmcity_movie" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-15 12:50:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1fc9eef697c73110f99bfcdfe153af09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_875316_filmcity_movie" name="x_875316_filmcity_movie" sys_domain="global" view="Default view">cfc9eef697c73110f99bfcdfe153af05</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_875316_filmcity_movie" sys_domain="global" view="Default view">0747e63697c73110f99bfcdfe153af82</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-15 12:50:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-15 12:50:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bc9eef697c73110f99bfcdfe153af0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_875316_filmcity_movie" name="x_875316_filmcity_movie" sys_domain="global" view="Default view">cfc9eef697c73110f99bfcdfe153af05</sys_ui_form>
+            <sys_ui_section caption="Dates" display_value="Dates" name="x_875316_filmcity_movie" sys_domain="global" view="Default view">0bc9aef697c73110f99bfcdfe153af87</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-15 12:50:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-15 12:50:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bc9eef697c73110f99bfcdfe153af0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_875316_filmcity_movie" name="x_875316_filmcity_movie" sys_domain="global" view="Default view">cfc9eef697c73110f99bfcdfe153af05</sys_ui_form>
+            <sys_ui_section caption="Cast and Crew" display_value="Cast and Crew" name="x_875316_filmcity_movie" sys_domain="global" view="Default view">8fc9eef697c73110f99bfcdfe153af04</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-15 12:50:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_875316_filmcity_movie</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-15 12:50:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfc9eef697c73110f99bfcdfe153af05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_875316_filmcity_movie</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="FilmCity" source="x_875316_filmcity">93756e7e97873110f99bfcdfe153af0f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="FilmCity">93756e7e97873110f99bfcdfe153af0f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_cfc9eef697c73110f99bfcdfe153af05</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-15 12:50:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

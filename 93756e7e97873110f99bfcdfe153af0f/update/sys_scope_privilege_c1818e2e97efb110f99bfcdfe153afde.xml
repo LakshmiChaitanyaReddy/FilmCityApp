@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="FilmCity">93756e7e97873110f99bfcdfe153af0f</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>Chaitanya</sys_created_by>
+        <sys_created_on>2024-01-08 11:46:57</sys_created_on>
+        <sys_id>c1818e2e97efb110f99bfcdfe153afde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>extendMultiple</sys_name>
+        <sys_package display_value="FilmCity" source="x_875316_filmcity">93756e7e97873110f99bfcdfe153af0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FilmCity">93756e7e97873110f99bfcdfe153af0f</sys_scope>
+        <sys_update_name>sys_scope_privilege_c1818e2e97efb110f99bfcdfe153afde</sys_update_name>
+        <sys_updated_by>Chaitanya</sys_updated_by>
+        <sys_updated_on>2024-01-08 11:46:57</sys_updated_on>
+        <target_name>extendMultiple</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+</record_update>

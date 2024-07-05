@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_875316_filmcity.MomentJsFuncs</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>MomentJsFuncs</name>
+        <script><![CDATA[gs.include('moment.min.js');
+gs.include('moment-timezone-with-data-1970-2030');
+
+var MomentJsFuncs = Class.create();
+MomentJsFuncs.prototype = {
+    initialize: function() {},
+    timeToDiffTZ: function() {
+        gs.info(moment().format('YYYY-MM-DD HH:mm:ss a'))
+        var a = moment.tz(new GlideDateTime().getValue(), 'GMT') //.format('YYYY-MM-DD HH:mm:ss z')
+        var b = a.clone().tz("America/New_York").format('YYYY-MM-DD HH:mm:ss z')
+		return b;
+    },
+    type: 'MomentJsFuncs'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 05:55:49</sys_created_on>
+        <sys_id>1cb81acf97e28610f99bfcdfe153af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MomentJsFuncs</sys_name>
+        <sys_package display_value="FilmCity" source="x_875316_filmcity">93756e7e97873110f99bfcdfe153af0f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="FilmCity">93756e7e97873110f99bfcdfe153af0f</sys_scope>
+        <sys_update_name>sys_script_include_1cb81acf97e28610f99bfcdfe153af86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 05:55:49</sys_updated_on>
+        <u_iscreatedbyme>true</u_iscreatedbyme>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FilmCity">93756e7e97873110f99bfcdfe153af0f</application>
+        <file_path/>
+        <instance_id>3989b98adb1e11508aea21c405961913</instance_id>
+        <instance_name>dev138745</instance_name>
+        <name>sys_script_include_1cb81acf97e28610f99bfcdfe153af86</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_875316_filmcity.MomentJsFuncs&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;MomentJsFuncs&lt;/name&gt;&lt;script&gt;&lt;![CDATA[gs.include('moment.min.js');
+gs.include('moment-timezone-with-data-1970-2030');
+
+var MomentJsFuncs = Class.create();
+MomentJsFuncs.prototype = {
+    initialize: function() {},
+    timeToDiffTZ: function() {
+        gs.info(moment().format('YYYY-MM-DD HH:mm:ss a'))
+        var a = moment.tz(new GlideDateTime().getValue(), 'GMT') //.format('YYYY-MM-DD HH:mm:ss z')
+        var b = a.clone().tz("America/New_York").format('YYYY-MM-DD HH:mm:ss z')
+		return b;
+    },
+    type: 'MomentJsFuncs'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-07 05:55:49&lt;/sys_created_on&gt;&lt;sys_id&gt;1cb81acf97e28610f99bfcdfe153af86&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;MomentJsFuncs&lt;/sys_name&gt;&lt;sys_package display_value="FilmCity" source="x_875316_filmcity"&gt;93756e7e97873110f99bfcdfe153af0f&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="FilmCity"&gt;93756e7e97873110f99bfcdfe153af0f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_1cb81acf97e28610f99bfcdfe153af86&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-07 05:55:49&lt;/sys_updated_on&gt;&lt;u_iscreatedbyme&gt;true&lt;/u_iscreatedbyme&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2032323968</payload_hash>
+        <record_name>MomentJsFuncs</record_name>
+        <reverted_from/>
+        <source>1f756e7e97873110f99bfcdfe153af11</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 05:55:50</sys_created_on>
+        <sys_id>693912c397668610f99bfcdfe153aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ff14483040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 05:55:50</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>2d3912c3fe668610fcb8c73c9cdb8df7</update_guid>
+        <update_guid_history>2d3912c3fe668610fcb8c73c9cdb8df7:2032323968</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 05:56:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>3cf9ac2cb24c4de1a37bcc56e767d3c1</sys_id>
+        <sys_metadata>1cb81acf97e28610f99bfcdfe153af86</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MomentJsFuncs</sys_name>
+        <sys_package display_value="FilmCity" source="x_875316_filmcity">93756e7e97873110f99bfcdfe153af0f</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="FilmCity">93756e7e97873110f99bfcdfe153af0f</sys_scope>
+        <sys_scope_delete display_value="">33a1e5c73f7f4000b09b3f7c69000000</sys_scope_delete>
+        <sys_update_name>sys_script_include_1cb81acf97e28610f99bfcdfe153af86</sys_update_name>
+        <sys_update_version display_value="sys_script_include_1cb81acf97e28610f99bfcdfe153af86">693912c397668610f99bfcdfe153aff8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 05:56:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

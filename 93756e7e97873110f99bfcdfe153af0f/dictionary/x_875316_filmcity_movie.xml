@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="40d6aaf297c73110f99bfcdfe153afe1" label="Movie" max_length="40" name="x_875316_filmcity_movie" type="collection">
+        <element attributes="encode_utf8=false" label="Lead Hero" mandatory="true" max_length="32" name="lead_hero" reference="sys_user" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Crew" max_length="1024" name="crew" reference="sys_user" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Actors Involved" max_length="1024" name="actors_involved" reference="sys_user" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Director" mandatory="true" max_length="32" name="director" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Plot" max_length="2000" name="plot" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Movie Name" mandatory="true" max_length="80" name="movie_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OTT Release Date" max_length="40" name="ott_release_date" type="glide_date"/>
+        <element label="Language" max_length="40" name="language" type="language"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Phase" max_length="40" name="phase" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Shelved" sequence="3" value="shelved"/>
+                <element inactive_on_update="false" label="In production" sequence="1" value="in production"/>
+                <element inactive_on_update="false" label="Pre production" sequence="0" value="pre production"/>
+                <element inactive_on_update="false" label="Released" sequence="2" value="released"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Budget" max_length="20" name="budget" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Verdict" max_length="40" name="verdict" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hit" value="hit"/>
+                <element inactive_on_update="false" label="Flop" value="flop"/>
+                <element inactive_on_update="false" label="Block-Buster" value="block_buster"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Release Date" max_length="40" name="release_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="director"/>
+        </index>
+        <index name="index2">
+            <element name="lead_hero"/>
+        </index>
+    </element>
+</database>
